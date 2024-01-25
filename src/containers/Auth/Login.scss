@@ -1,0 +1,77 @@
+.login-background {
+    background: linear-gradient(135deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    height: 100vh;
+    .login-container {
+        width: 400px;
+        height: 500px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        background-color: white;
+        border-radius: 30px;
+        .login-content {
+            padding: 30px;
+
+            .text-login {
+                text-align: center;
+                font-size: 30px;
+                font-weight: 700;
+            }
+            .user-label {
+                padding-top: 40px;
+                padding-bottom: 10px;
+            }
+            .pass-label {
+                padding-top: 20px;
+                padding-bottom: 10px;
+            }
+            .login-input {
+                font-size: 14px;
+                height: 40px;
+            }
+            ::placeholder {
+                font-size: 12px;
+            }
+            .btn-login {
+                font-weight: 550;
+                color: white;
+                font-size: 18;
+                width: 100%;
+                margin-top: 20px;
+                height: 40px;
+                border-radius: 30px;
+                background: linear-gradient(135deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+            }
+            .warning {
+                padding-top: 8px;
+                color: red;
+            }
+            .forget-pass {
+                padding-top: 10px;
+                font-size: 14px;
+            }
+            .sign-with {
+                text-align: center;
+                padding-top: 40px;
+            }
+            .logo {
+                text-align: center;
+            }
+            .logo-img {
+                margin: 10px;
+                width: 40px;
+                height: 40px;
+            }
+            .hide-password {
+                position: relative;
+                .icon {
+                    position: absolute;
+                    right: 7px;
+                    top: 12px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

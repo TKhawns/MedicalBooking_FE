@@ -1,0 +1,32 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+:root {
+    --default-layout-header-width: 1358px;
+    --default-layout-header-height: 60px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Inter';
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    font-size: 1.6rem;
+}
+button,
+input {
+    outline: none;
+    border: none;
+}
+a {
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
