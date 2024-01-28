@@ -1,10 +1,10 @@
-import './Home.scss';
+import './ManageUser.scss';
 import { useEffect, useState } from 'react';
 import { getAllUsers } from '../../services/userService';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPenToSquare } from '@fortawesome/free-solid-svg-icons';
 import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
-function Home() {
+function ManageUser() {
     const [users, setUsers] = useState([]);
     useEffect(() => {
         async function getAllUsersFromService() {
@@ -56,4 +56,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default ManageUser;
