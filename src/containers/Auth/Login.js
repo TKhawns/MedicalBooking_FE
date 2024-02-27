@@ -31,7 +31,6 @@ function Login() {
             if (data && data.errCode === 0) {
                 console.log(data);
                 dispatch(loginSuccess(data.userData));
-                // userLoginSuccess(data.userData);
                 navigate('/');
             }
         } catch (e) {

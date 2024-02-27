@@ -1,0 +1,38 @@
+version: '3.7'
+
+services:
+  mysql:
+    image: mysql:5.7
+    container_name: mysql-nodejs
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: 10012003
+      MYSQL_DATABASE: bookcare
+    ports:
+     - "3306:3306"  
+    volumes:
+    # Mysql
+    - db:/var/lib/mysql
+    networks: 
+      - nodejss
+
+  web:
+    depends_on:
+      - mysql
+    build: ./
+    ports: 
+     - "8080:8090"
+    volumes:
+    - ./ui-medical-booking/:/app
+    restart: unless-stopped
+    container_name: nodejs
+    stdin_open: true
+    tty: true
+    networks: 
+      - nodejss
+
+volumes:
+  db:
+
+networks:
+  nodejss:

@@ -55,6 +55,19 @@
                     font-size: 13px;
                 }
             }
+            .select-language {
+                border: none;
+                outline: none;
+                .select-vi {
+                    border: none;
+                }
+                .hidden-select-vi {
+                    display: none;
+                }
+                .select-en {
+                    border: none;
+                }
+            }
         }
     }
 }
