@@ -1,0 +1,38 @@
+.wrapper {
+    padding: 20px;
+    .top-content {
+        width: 1200px !important;
+        padding-top: 0.75rem !important;
+        padding: 15px !important;
+        display: flex;
+        flex-direction: row !important;
+        margin: auto !important;
+        .route-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .route-item {
+                padding-left: 5px;
+            }
+        }
+    }
+    .bot-content {
+        width: 1200px !important;
+        margin: auto !important;
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            padding: 10px;
+            .grid-item {
+                padding-top: 20px;
+                .image {
+                    padding-bottom: 8px;
+                }
+                .text {
+                    font-size: 15px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

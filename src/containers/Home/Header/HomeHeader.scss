@@ -37,6 +37,9 @@
             display: flex;
             justify-content: space-between;
             .child-content {
+                &:hover {
+                    color: #49bce2 !important;
+                }
                 font-size: 14px;
                 .sub-title {
                     font-size: 12px;

@@ -1,4 +1,4 @@
-import './Header.scss';
+import './HomeHeader.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import {
@@ -31,7 +31,7 @@ function HomeHeader() {
                         <div className="header-logo"></div>
                     </div>
                     <div className="mid-content">
-                        <div className="child-content">
+                        <a href="/specialty" className="child-content">
                             <div>
                                 <b>
                                     <FormattedMessage id="homeheader.specialty" />
@@ -40,7 +40,7 @@ function HomeHeader() {
                             <div className="sub-title">
                                 <FormattedMessage id="homeheader.find-doctor" />
                             </div>
-                        </div>
+                        </a>
                         <div className="child-content">
                             <div>
                                 <b>

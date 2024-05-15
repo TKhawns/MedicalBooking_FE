@@ -1,4 +1,4 @@
-import HomeHeader from './Header/Header';
+import HomeHeader from './Header/HomeHeader';
 import Specialty from './Section/Specialty/Specialty';
 import Facility from './Section/Facility/Facility';
 import FamousDoctor from './Section/FamousDoctor/FamousDoctor';
