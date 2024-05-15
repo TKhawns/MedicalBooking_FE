@@ -13,7 +13,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
-import { appLanguage } from '../../redux/appSlice';
+import { appLanguage } from '../../../redux/appSlice';
 import { useDispatch } from 'react-redux';
 
 function HomeHeader() {

@@ -1,9 +1,8 @@
 import React from 'react';
-import './Section.scss';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import specialtyImg from '../../../assets/gan-mat.png';
+import specialtyImg from '../../../../assets/gan-mat.png';
 
 function Facility() {
     let settings = {
@@ -17,10 +16,6 @@ function Facility() {
     return (
         <div className="section-specialty">
             <div className="specialty-content">
-                <div className="specialty-header">
-                    <span className="popular">Cơ sở y tế</span>
-                    <button className="more-button">Xem thêm</button>
-                </div>
                 <div className="specialty-body">
                     <Slider {...settings}>
                         <div className="img-custom">
