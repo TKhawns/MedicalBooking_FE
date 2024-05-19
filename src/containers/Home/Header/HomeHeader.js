@@ -123,9 +123,9 @@ function HomeHeader() {
                             <div className="icon-child">
                                 <FontAwesomeIcon className="icon-hospital" icon={faHospital} />
                             </div>
-                            <div className="text">
+                            <a href="/specialty" className="text">
                                 <FormattedMessage id="homeheader.checkup-specialty" />
-                            </div>
+                            </a>
                         </div>
                         <div className="option-child">
                             <div className="icon-child">

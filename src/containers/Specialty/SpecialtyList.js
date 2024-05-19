@@ -28,7 +28,7 @@ function SpecialtyPage() {
                 </div>
                 <div className="bot-content">
                     <div className="grid-container">
-                        <a className="grid-item">
+                        <a className="grid-item" href="/musculoskeletal">
                             <div className="image">
                                 <img
                                     alt="Cơ Xương Khớp"

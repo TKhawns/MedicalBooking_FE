@@ -4,6 +4,7 @@ import Login from './containers/Auth/Login/Login';
 import ManageUser from './containers/System/ManageUser';
 import HomePage from './containers/Home/HomePage';
 import SpecialtyPage from './containers/Specialty/SpecialtyList';
+import Musculoskeletal from './containers/Musculoskeletal/Musculoskeletal';
 function App() {
     return (
         <Router>
@@ -13,6 +14,7 @@ function App() {
                     <Route path="/manage-users" Component={ManageUser} />
                     <Route path="/" Component={HomePage} />
                     <Route path="/specialty" Component={SpecialtyPage} />
+                    <Route path="/musculoskeletal" Component={Musculoskeletal} />
                     {/* Add other routes as needed */}
                 </Routes>
             </div>
