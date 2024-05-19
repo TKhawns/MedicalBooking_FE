@@ -5,6 +5,7 @@ import ManageUser from './containers/System/ManageUser';
 import HomePage from './containers/Home/HomePage';
 import SpecialtyPage from './containers/Specialty/SpecialtyList';
 import Musculoskeletal from './containers/Musculoskeletal/Musculoskeletal';
+import DoctorPage from './containers/FamousDoctor/Doctor';
 function App() {
     return (
         <Router>
@@ -15,6 +16,7 @@ function App() {
                     <Route path="/" Component={HomePage} />
                     <Route path="/specialty" Component={SpecialtyPage} />
                     <Route path="/musculoskeletal" Component={Musculoskeletal} />
+                    <Route path="/doctor-page" Component={DoctorPage} />
                     {/* Add other routes as needed */}
                 </Routes>
             </div>

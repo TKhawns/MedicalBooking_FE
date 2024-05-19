@@ -28,7 +28,7 @@ function HomeHeader() {
                 <div className="home-header-content">
                     <div className="left-content">
                         <FontAwesomeIcon className="header-menu" icon={faBars} />
-                        <div className="header-logo"></div>
+                        <a href="/" className="header-logo"></a>
                     </div>
                     <div className="mid-content">
                         <a href="/specialty" className="child-content">
@@ -51,7 +51,7 @@ function HomeHeader() {
                                 <FormattedMessage id="homeheader.select" />
                             </div>
                         </div>
-                        <div className="child-content">
+                        <a href="/doctor-page" className="child-content">
                             <div>
                                 <b>
                                     <FormattedMessage id="homeheader.doctor" />
@@ -60,7 +60,7 @@ function HomeHeader() {
                             <div className="sub-title">
                                 <FormattedMessage id="homeheader.select-doctor" />
                             </div>
-                        </div>
+                        </a>
                         <div className="child-content">
                             <div>
                                 <b>
