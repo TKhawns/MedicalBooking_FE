@@ -6,6 +6,10 @@ import HomePage from './containers/Home/HomePage';
 import SpecialtyPage from './containers/Specialty/SpecialtyList';
 import Musculoskeletal from './containers/Musculoskeletal/Musculoskeletal';
 import DoctorPage from './containers/FamousDoctor/Doctor';
+import Nerve from './containers/Nerve/Nerve';
+import Digest from './containers/Digest/Digest';
+import Heart from './containers/Heart/Heart';
+import FacilityPage from './containers/Facility/Facility';
 function App() {
     return (
         <Router>
@@ -16,7 +20,11 @@ function App() {
                     <Route path="/" Component={HomePage} />
                     <Route path="/specialty" Component={SpecialtyPage} />
                     <Route path="/musculoskeletal" Component={Musculoskeletal} />
+                    <Route path="/nerve" Component={Nerve} />
+                    <Route path="/digest" Component={Digest} />
+                    <Route path="/heart" Component={Heart} />
                     <Route path="/doctor-page" Component={DoctorPage} />
+                    <Route path="/facility-page" Component={FacilityPage} />
                     {/* Add other routes as needed */}
                 </Routes>
             </div>

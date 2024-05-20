@@ -42,7 +42,7 @@ function SpecialtyPage() {
                             </div>
                             <span className="text">Cơ xương khớp</span>
                         </a>
-                        <a className="grid-item">
+                        <a href="/nerve" className="grid-item">
                             <div className="image">
                                 <img
                                     alt="Thần kinh"
@@ -56,7 +56,7 @@ function SpecialtyPage() {
                             </div>
                             <span className="text">Thần kinh</span>
                         </a>
-                        <a className="grid-item">
+                        <a href="/digest" className="grid-item">
                             <div className="image">
                                 <img
                                     alt="Tiêu hoá"
@@ -70,7 +70,7 @@ function SpecialtyPage() {
                             </div>
                             <span className="text">Tiêu hóa</span>
                         </a>
-                        <a className="grid-item">
+                        <a href="/heart" className="grid-item">
                             <div className="image">
                                 <img
                                     alt="Tim mạch"
