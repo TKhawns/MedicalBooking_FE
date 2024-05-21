@@ -152,7 +152,6 @@ function FacilityPage() {
                         </div>
                     </div>
                 ))}
-                */}
             </div>
             <Footer />
         </div>

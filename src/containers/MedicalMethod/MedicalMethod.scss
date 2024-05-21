@@ -1,0 +1,165 @@
+.method-wrapper {
+    .top-content {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.582), rgba(255, 255, 255, 0)),
+            url(https://cdn.bookingcare.vn/fo/w1920/2022/10/26/093216-bc.jpg);
+        background-size: cover;
+        background-position: center;
+        .title {
+            padding-top: 3em;
+            padding-bottom: 2em;
+            text-align: center;
+            font-size: 30px;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+    }
+    .mid-content {
+        max-width: 1200px !important;
+        margin: auto;
+        .mid-title {
+            padding-top: 2em;
+            padding-bottom: 10px;
+            font-size: 30px;
+            font-weight: 600;
+        }
+        .mid-line {
+            width: 100%;
+            height: 3px;
+            background-color: rgb(238 238 238);
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto;
+            padding: 10px;
+            justify-content: space-evenly;
+            .grid-item {
+                padding-top: 20px;
+                text-align: center;
+
+                .image {
+                    background-image: linear-gradient(rgb(250, 242, 217), rgb(190, 230, 244));
+                    overflow: hidden;
+                    padding-bottom: 8px;
+                    border-radius: 75px !important;
+                    width: 150px !important;
+                    height: 150px !important;
+                    .inner-image {
+                        border-radius: 75px !important;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+                .text {
+                    font-size: 15px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    .bot-content {
+        max-width: 1200px !important;
+        margin: auto;
+        .bot-title {
+            padding-top: 2em;
+            padding-bottom: 10px;
+            font-size: 30px;
+            font-weight: 600;
+        }
+        .bot-line {
+            width: 100%;
+            height: 3px;
+            background-color: rgb(238 238 238);
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            padding: 10px;
+            justify-content: space-between;
+            width: 100%;
+
+            .grid-item {
+                display: flex;
+                flex-direction: column;
+                box-shadow: rgba(32, 33, 36, 0.28) 0px 1px 6px;
+                width: 260px !important;
+                margin-bottom: 30px;
+                justify-content: space-between;
+                .image {
+                    width: 260px !important;
+                    .inner-image {
+                        width: 100% !important;
+                    }
+                }
+                .description {
+                    font-size: 15px;
+                    font-weight: 600;
+                    text-align: center;
+                    padding: 10px;
+                }
+                .line-item {
+                    width: 100%;
+                    height: 2px;
+                    background-color: rgb(238 238 238);
+                }
+                .price {
+                    display: flex;
+                    flex-direction: row;
+                    font-size: 15px;
+                    justify-content: space-between;
+                    text-align: center;
+                    padding: 10px;
+                    .left-price {
+                    }
+                    .right-price {
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+    .handbook-container {
+        padding: 0px 0 40px;
+        .handbook-wrapper {
+            background-color: #fff;
+            width: 100%;
+            height: 450px;
+            padding: 60px 0 40px;
+            .handbook-content {
+                max-width: 1196px;
+                width: 100%;
+                padding-right: 0.75rem;
+                padding-left: 0.75rem;
+                margin-right: auto;
+                margin-left: auto;
+                .handbook-title {
+                    padding-top: 16px;
+                    padding-bottom: 20px;
+                    text-align: center;
+                    color: #1d5193;
+                    position: relative;
+                    font-size: 30px;
+                    line-height: 1.2;
+                    font-weight: 700 !important;
+                    &:before {
+                        top: 0;
+                        bottom: auto;
+                        background: #bf8f4c;
+                        content: '';
+                        position: absolute;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 80px;
+                        height: 3px;
+                        box-sizing: border-box;
+                    }
+                }
+                .handbook-slider {
+                    height: 50px;
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+}

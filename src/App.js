@@ -10,6 +10,7 @@ import Nerve from './containers/Nerve/Nerve';
 import Digest from './containers/Digest/Digest';
 import Heart from './containers/Heart/Heart';
 import FacilityPage from './containers/Facility/Facility';
+import MedicalMethod from './containers/MedicalMethod/MedicalMethod';
 function App() {
     return (
         <Router>
@@ -25,6 +26,7 @@ function App() {
                     <Route path="/heart" Component={Heart} />
                     <Route path="/doctor-page" Component={DoctorPage} />
                     <Route path="/facility-page" Component={FacilityPage} />
+                    <Route path="/medical-method" Component={MedicalMethod} />
                     {/* Add other routes as needed */}
                 </Routes>
             </div>

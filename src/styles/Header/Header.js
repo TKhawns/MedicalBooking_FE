@@ -52,7 +52,7 @@ function Header() {
                                 <FormattedMessage id="homeheader.select-doctor" />
                             </div>
                         </a>
-                        <div className="child-content">
+                        <a href="/medical-method" className="child-content">
                             <div>
                                 <b>
                                     <FormattedMessage id="homeheader.method" />
@@ -61,7 +61,7 @@ function Header() {
                             <div className="sub-title">
                                 <FormattedMessage id="homeheader.checkup" />
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div className="right-content">
                         <div className="support-container">
